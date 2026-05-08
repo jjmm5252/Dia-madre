@@ -1,18 +1,28 @@
 * {
   background: #000000;
-  color: #ff0000;
+  color: #ffffff;
   text-align: center;
   align-items: center;
-} 
+}
 div {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr;
-    gap: 10px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  gap: 10px;
+  position: relative;
 }
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+p {
+  top: 49%;
+  left: 50%;
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
 }
