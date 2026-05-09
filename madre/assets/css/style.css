@@ -1,6 +1,5 @@
 * {
   border: 0px solid transparent;
-  border-image-source: url("https://tse3.mm.bing.net/th/id/OIP.CGdDICxateJSi0q77S5ciwHaHa?rs=1&pid=ImgDetMain&o=7&rm=30");
   color: #ffffff;
   text-align: center;
   align-items: center;
@@ -20,6 +19,7 @@ div {
   grid-template-rows: 2fr 2fr;
   gap: 10px;
   position: relative;
+  background: url("https://tse3.mm.bing.net/th/id/OIP.CGdDICxateJSi0q77S5ciwHaHa?rs=1&pid=ImgDetMain&o=7&rm=30") ;
 }
 img {
   width: 100%;
